@@ -17,8 +17,8 @@ public class ArrayChallenge {
         OptionalDouble ave = Arrays.stream(array).average();
         OptionalInt larg = Arrays.stream(array).max();
         System.out.println("sum = " + sum);
-        System.out.println("ave = " + ave);
-        System.out.println("larg = " + larg);
+        System.out.println("ave = " + ave.orElse(0));
+        System.out.println("larg = " + larg.orElse(0));
 
 
     }
