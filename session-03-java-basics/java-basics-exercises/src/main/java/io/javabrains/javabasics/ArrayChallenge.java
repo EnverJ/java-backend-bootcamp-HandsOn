@@ -5,9 +5,6 @@ import java.util.OptionalDouble;
 import java.util.OptionalInt;
 
 public class ArrayChallenge {
-    public void nums() {
-
-    }
 
     public static void main(String[] args) {
         // Step 1: Create an array of integers
