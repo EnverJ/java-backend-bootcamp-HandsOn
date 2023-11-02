@@ -2,7 +2,7 @@ package assignment;
 
 public class Cat extends Animal{
     private int CatNum;
-    public Cat(String name, int age) {
+    public Cat(String name, int age, int Carnum) {
         super(name, age);
         this.CatNum = CatNum;
     }
